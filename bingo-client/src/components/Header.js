@@ -9,9 +9,8 @@ import {
 } from "react-router-dom";
 import styled from "styled-components";
 import { useAuth } from "../auth/AuthContext";
-import { BotonTipo1 } from "./styled-componets/ComponentsPrincipales";
 import { device } from "./styled-componets/MediaQ";
-import logo from "../imgs/LogoAustro.ico";
+import logo from "../imgs/LogoBingo.ico";
 
 const ContenedorHeader = styled.div`
   display: flex;
@@ -98,37 +97,6 @@ const ContenedorMenu = styled.div`
   }
   @media ${device.mobile1} {
     display: none;
-    /* position: fixed;
-    top: var(--altura-header);
-    right: -250px; 
-    height: 100%;
-    width: 250px;
-    background-color: #fcfcf7;
-    transition: right 0.3s ease;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 15px;
-    z-index: 200;
-    &.abierto {
-      right: 0; 
-    }
-    .boton-menu-hamburguesa {
-      display: block;
-      font-size: 30px;
-      border: none;
-      background: none;
-      cursor: pointer;
-    }
-
-    .ContenedorHeader1 {
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .ContenedorLogin,
-    .ContenedorMenu {
-      display: none; 
-    } */
   }
 `;
 

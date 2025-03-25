@@ -1,7 +1,7 @@
 import { EstructuraTabla1 } from "../../pages/UserPages/EstructuraTabla1";
 import "./1.css";
 import styled from "styled-components";
-import logo from "../../imgs/LogoAustro.ico";
+import logo from "../../imgs/LogoBingo.ico";
 import LetrasGrid from "../letrasTabla/LetrasGrid";
 
 const Page = styled.div`

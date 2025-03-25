@@ -1,7 +1,7 @@
 import { EstructuraTabla2 } from "../../pages/UserPages/EstructuraTabla2";
 import "./1.css";
 import styled from "styled-components";
-import logo from "../../imgs/LogoAustro.ico";
+import logo from "../../imgs/LogoBingo.ico";
 
 const Page = styled.div`
   font-family: "Arial", sans-serif;

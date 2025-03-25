@@ -78,7 +78,7 @@ const ContenidoPagina = styled.div`
 const ContenedorPP = styled.div`
   /* height: calc(100dvh - var(--altura-header)); */
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.2)),
-    url("/BGBINGO.png");
+    url("/bingoBG.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -275,11 +275,11 @@ function LandingPage() {
       )}
       <ContenidoPagina>
         <ContenedorPP>
-          <BingoText style={{ textAlign: "center" }}>
+          {/* <BingoText style={{ textAlign: "center" }}>
             GRAN BINGO
             <br />
             DEL AUSTRO
-          </BingoText>
+          </BingoText> */}
           <ContenedorVerMas>
             <div className="c1" onClick={scrollToElement}>
               <span>Ver más</span>

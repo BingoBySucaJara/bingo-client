@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-const logo1 = `${process.env.REACT_APP_URL_CLIENT}/LogoAustro.ico`
+const logo1 = `${process.env.REACT_APP_URL_CLIENT}/LogoBingo.ico`
 
 
 const TablaBingo = styled.div`
