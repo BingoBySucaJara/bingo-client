@@ -1,0 +1,25 @@
+# dependencies
+bingo-client/node_modules
+
+# production
+bingo-client/build
+
+# misc
+bingo-client/.DS_Store
+bingo-client/.env
+bingo-client/.env.local
+bingo-client/.env.development.local
+bingo-client/.env.test.local
+bingo-client/.env.production.local
+
+bingo-client/npm-debug.log*
+bingo-client/yarn-debug.log*
+bingo-client/yarn-error.log*
+
+# editor settings
+bingo-client/.vscode
+bingo-client/.idea
+
+# OS generated
+bingo-client/Thumbs.db
+bingo-client/ehthumbs.db

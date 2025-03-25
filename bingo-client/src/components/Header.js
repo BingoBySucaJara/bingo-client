@@ -28,7 +28,7 @@ const ContenedorHeader = styled.div`
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   z-index: 100;
   &.home {
-    background: #00002d;
+    background: #cec4a3;
   }
 `;
 
@@ -39,7 +39,7 @@ const ContenedorHeader1 = styled.div`
   width: 100%;
   gap: 10px;
   align-items: center;
-  padding: 15px;
+  /* padding: 15px; */
   justify-content: space-between;
   & > div {
     width: 100%;
@@ -48,8 +48,11 @@ const ContenedorHeader1 = styled.div`
 
 const ContenedorLogo = styled.div`
   display: flex;
+  height: 100%;
   & > img {
+    height: 100%;
     width: 50px;
+    object-fit: contain;
     cursor: pointer;
   }
   & span {
