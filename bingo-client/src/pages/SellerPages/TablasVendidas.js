@@ -387,10 +387,12 @@ const TablasVendidas = () => {
     setIsLoading(true); // Inicia la carga
     try {
       const idVendedor = await ObtenerIDUsuario(idv);
+      console.log(idVendedor);
+      
       if (menu === 0) {
         if (idVendedor.data.id) {
           const res = await ConsultarVentas(idVendedor.data.id);
-          // console.log(res.data.data);
+          console.log(res.data.data);
           setDatosTabla(res.data.data || []);
         }
       } else {
