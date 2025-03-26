@@ -89,7 +89,7 @@ export const EstructuraTabla2 = ({ dataTables }) => {
       <div>
         <span>#{dataTables.numtabla}</span>
         <ContenedorGrid>
-          <span className="title">LA ÚNICA</span>
+          <span className="title">SUQUITA</span>
           <GridH data={dataTables} />
           <span style={{fontSize:"10px"}}>Vend:{dataTables.alias}</span>
         </ContenedorGrid>

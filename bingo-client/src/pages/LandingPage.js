@@ -330,7 +330,7 @@ function LandingPage() {
                   textAlign: "center",
                 }}
               >
-                La Única
+                Suquita
               </h2>
               <span>{cont2.contenido}</span>
 

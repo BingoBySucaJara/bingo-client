@@ -249,7 +249,7 @@ const CardTable = ({ datos, headerNames, visibleColumns }) => {
                 : header === "tipo_juego"
                 ? fila[header] === 0
                   ? "Normal"
-                  : "La Única"
+                  : "Suquita"
                 : header === "tablas_ganadas"
                 ? formatearResultado(fila[header])
                 : fila[header]}
@@ -296,7 +296,7 @@ const Tablas = ({ datos }) => {
                       : header === "tipo_juego"
                       ? venta[header] === 0
                         ? "Normal"
-                        : "La Única"
+                        : "Suquita"
                       : header === "tablas_ganadas"
                       ? formatearResultado(venta[header])
                       : venta[header]}
