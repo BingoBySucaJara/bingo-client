@@ -188,9 +188,9 @@ const Modal = ({ isOpen, onClose, onConfirm, datos, limpiar }) => {
       datos.cantidades["Tablon"] === undefined
         ? 0
         : parseInt(datos.cantidades["Tablon"]),
-      datos.cantidades["Suquita"] === undefined
+      datos.cantidades["Sukita"] === undefined
         ? 0
-        : parseInt(datos.cantidades["Suquita"]),
+        : parseInt(datos.cantidades["Sukita"]),
       datos.cantidadTransferencia === ""
         ? 0
         : parseFloat(datos.cantidadTransferencia),
@@ -341,7 +341,7 @@ const FormularioVenta = () => {
   const [cantidadTransferencia, setCantidadTransferencia] = useState("");
 
   // Asignación de juegos para simplificar el ejemplo
-  const juegos = ["Tablon", "Suquita"];
+  const juegos = ["Tablon", "Sukita"];
   const todasLasCantidadesValidas = useCallback(() => {
     return juegosSeleccionados.every(
       (juego) => cantidades[juego] && cantidades[juego] > 0
@@ -598,7 +598,7 @@ const FormularioVenta = () => {
                     checked={juegosSeleccionados.includes(juego)}
                     onChange={() => handleJuegoSeleccionado(juego)}
                   />
-                  {juego === "Tablon" ? "Tablón" : "Suquita"}
+                  {juego === "Tablon" ? "Tablón" : "Sukita"}
                 </label>
               ))}
             </fieldset>
@@ -609,7 +609,7 @@ const FormularioVenta = () => {
           juegosSeleccionados.map((juego) => (
             <div key={juego} className="seccionVenta">
               <label>
-                {`Cantidad de ${juego === "Tablon" ? "Tablón" : "Suquita"}:`}
+                {`Cantidad de ${juego === "Tablon" ? "Tablón" : "Sukita"}:`}
                 <InputField
                   type="number"
                   value={cantidades[juego] || ""}

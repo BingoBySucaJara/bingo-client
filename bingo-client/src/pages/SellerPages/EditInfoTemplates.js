@@ -403,7 +403,7 @@ const CuadroInfo = ({ data1, data2, handleChange1, handleChange2 }) => {
         </ContenedorMenor1>
         <ContenedorMenor1>
           <ContenedorGrid>
-            <h3 style={{ margin: "0" }}>Juego Suquita</h3>
+            <h3 style={{ margin: "0" }}>Juego Sukita</h3>
 
             <div className="fila">
               <span className="col-derecha">Contenido:</span>

@@ -330,7 +330,7 @@ function LandingPage() {
                   textAlign: "center",
                 }}
               >
-                Suquita
+                Sukita
               </h2>
               <span>{cont2.contenido}</span>
 

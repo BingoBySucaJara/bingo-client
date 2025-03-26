@@ -109,7 +109,7 @@ const RegistroVentas = () => {
     name: "VENDEDOR",
     alias: "ALIAS",
     total_normal: "# TABLÓN",
-    total_rapida: "# SUQUITA",
+    total_rapida: "# SUKITA",
     total_juegos: "TOTAL",
   };
 

@@ -187,7 +187,7 @@ const headerNames = {
   nombre: "Cliente",
   fecha: "Fecha",
   cantidadnormal: "# Tablón",
-  cantidadrapida: "# Suquita",
+  cantidadrapida: "# Sukita",
   numerotransaccion: "Num Tr",
   cantidadinero: "$ Tr.",
 };
@@ -358,7 +358,7 @@ const Tablas = ({ datos, datosVentas, NM }) => {
         <div className="grid-container">
           <div className="header"># VENTAS</div>
           <div className="header">TABLÓN</div>
-          <div className="header">SUQUITA</div>
+          <div className="header">SUKITA</div>
           <div className="header">TOTAL</div>
           <div className="header">VENDEDOR</div>
           <div className="cell">{datosVentas.juegos_normal_vendedor}</div>

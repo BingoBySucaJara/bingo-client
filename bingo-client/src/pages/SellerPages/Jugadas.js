@@ -315,7 +315,7 @@ const ContenedorJugadas = ({
             <span>
               Fecha Jugada: <em> {formatearFechaLegible(data.fecha_hora)} </em>
             </span>
-            <h3 style={{ margin: "0" }}>{TP === 0 ? "TABLÓN" : "SUQUITA"}</h3>
+            <h3 style={{ margin: "0" }}>{TP === 0 ? "TABLÓN" : "SUKITA"}</h3>
           </div>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div>
@@ -590,7 +590,7 @@ const Jugadas = () => {
                   id=""
                 >
                   <option value="">Seleccione un juego</option>
-                  <option value="1">Suquita</option>
+                  <option value="1">Sukita</option>
                   <option value="0">Tablón</option>
                 </SelectField>
               </Contenedor1>
