@@ -374,6 +374,8 @@ const FormularioVenta = () => {
     const res = await ObtenerIDUsuario(ident);
     if (res.status === 200) {
       return res.data.nombre;
+    } else {
+      return '';
     }
   };
   useEffect(() => {
