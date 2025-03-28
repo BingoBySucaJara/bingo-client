@@ -187,10 +187,10 @@ const ContenedorElemento1 = styled.div`
       gap: 10px;
     }
     .d1 {
-      background-color: var(--color-2);
+      background-color: var(--color-8);
     }
     .d2 {
-      background-color: var(--color-1);
+      background-color: var(--color-9);
     }
   }
 `;
