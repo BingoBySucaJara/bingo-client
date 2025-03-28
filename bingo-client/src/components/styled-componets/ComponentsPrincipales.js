@@ -113,7 +113,7 @@ export const InputFieldCustom = ({ onChange, label, type }) => {
 
 const Botonwpp = styled.a`
   padding: 5px 20px;
-  background-color: var(--color-wpp);
+  background-color: #075e54;
   color: var(--color-blanco);
   text-decoration: none;
   font-size: 20px;
@@ -137,7 +137,7 @@ export const BotonWpp = ({ phoneNumber, message }) => {
       rel="noopener noreferrer"
     >
       <i className="bi bi-whatsapp"></i>
-      Contáctanos Ahora!
+      Escríbenos!
     </Botonwpp>
   );
 };
