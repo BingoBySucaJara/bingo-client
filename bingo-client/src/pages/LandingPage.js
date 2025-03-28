@@ -298,7 +298,7 @@ function LandingPage() {
                   textAlign: "center",
                 }}
               >
-                Tablón
+                Tabla
               </h2>
               <span>{cont1.contenido}</span>
               <b>Letras a Jugar: {cont1.letras}</b>
@@ -317,7 +317,7 @@ function LandingPage() {
                 <BotonWpp
                   phoneNumber={"593958761221"}
                   message={
-                    "¡Hola! Estoy interesado en adquirir tablas para el BINGO. Me gustaría saber cuál es el precio actual y si tienen disponibilidad. Gracias de antemano por su atención."
+                    "¡Hola! Te escribo porque estoy interesado en adquirir tablas. Gracias de antemano por su atención."
                   }
                 />
               </div>
@@ -349,7 +349,7 @@ function LandingPage() {
                 <BotonWpp
                   phoneNumber={"593958761221"}
                   message={
-                    "¡Hola! Estoy interesado en adquirir tablas para el BINGO. Me gustaría saber cuál es el precio actual y si tienen disponibilidad. Gracias de antemano por su atención."
+                    "¡Hola! Te escribo porque estoy interesado en adquirir tablas. Gracias de antemano por su atención."
                   }
                 />
               </div>
