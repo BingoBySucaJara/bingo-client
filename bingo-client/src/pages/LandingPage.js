@@ -288,7 +288,7 @@ function LandingPage() {
           </ContenedorVerMas>
         </ContenedorPP>
         <ContenedorElemento1 id="elemento1">
-          <h2>Ven, disfruta y gana...</h2>
+          <h2>¡Ven a jugar, la suerte te espera y los premios son tuyos!</h2>
           <div className="contenedor1">
             <div className="d1">
               <h2
