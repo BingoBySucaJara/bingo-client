@@ -401,7 +401,7 @@ const GridContainerTab1 = styled.div`
     margin: 0;
   }
   .ganadas {
-    background-color: var(--color-1);
+    background-color: var(--color-10);
   }
   .DataList {
     padding-left: 5px;
