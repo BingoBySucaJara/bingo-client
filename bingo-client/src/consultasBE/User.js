@@ -32,6 +32,16 @@ export async function ObtenerIDUsuario(cedulacelular) {
     return err;
   }
 }
+export async function ObtenerIDVendedores() {
+  try {
+    const res = await axios.post(`${url}/api/users/userIdSeller`, {
+      cedulacelular: cedulacelular,
+    });
+    return res;
+  } catch (err) {
+    return err;
+  }
+}
 export async function CrearVendedorAdmin({
   nombrecliente,
   cccliente,

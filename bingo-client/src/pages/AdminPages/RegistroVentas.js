@@ -113,6 +113,7 @@ const RegistroVentas = () => {
     total_juegos: "TOTAL",
   };
 
+  
   const ConsultaVentasVendedores = async () => {
     const respuesta = await ConsultarVentas();
     setDatos(respuesta);
