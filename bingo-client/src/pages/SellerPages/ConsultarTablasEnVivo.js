@@ -142,13 +142,13 @@ const VerificarCodigo = ({ codigo, setCodigo }) => {
           if (jugada.estado === "I") {
             let res = [];
             // console.log(lT);
-            if (tdeJ === 0 && lT === "N") {
+            if (tdeJ === 0 && lT === "B") {
               res = await ObtenerTablasGanadoras();
               if (res) {
                 const encontro = findNumeralByCode(codigo, res);
                 setNumerosLlenados(encontro);
               }
-            } else if (tdeJ === 1 && lT === "R") {
+            } else if (tdeJ === 1 && lT === "S") {
               res = await ObtenerTablasGanadorasRapida();
               if (res) {
                 const encontro = findNumeralByCode(codigo, res);
@@ -156,7 +156,7 @@ const VerificarCodigo = ({ codigo, setCodigo }) => {
               }
             }
 
-            if (tdeJ === 0 && lT === "N") {
+            if (tdeJ === 0 && lT === "B") {
               // const res1 = await ObtenerTablasLetrasGanadoras();
               if (resp.data.data[0].cadenaletras !== "") {
                 
@@ -229,7 +229,7 @@ const VerificarCodigo = ({ codigo, setCodigo }) => {
             Tabla Encontrada
             <Contenedor2>
               <div>
-                {letraTabla === "N" ? (
+                {letraTabla === "B" ? (
                   <EstructuraTabla1 dataTables={data[0]} />
                 ) : (
                   <EstructuraTabla2 dataTables={data[0]} />
@@ -237,10 +237,10 @@ const VerificarCodigo = ({ codigo, setCodigo }) => {
               </div>
 
               {((jugada !== null &&
-                letraTabla === "N" &&
+                letraTabla === "B" &&
                 jugada.tipo_juego === 0) ||
                 (jugada !== null &&
-                  letraTabla === "R" &&
+                  letraTabla === "S" &&
                   jugada.tipo_juego === 1)) &&
                 (numerosLlenados !== null ? (
                   <div className="datos">
@@ -250,12 +250,12 @@ const VerificarCodigo = ({ codigo, setCodigo }) => {
                         : numerosLlenados === "GANADORAS"
                         ? "TABLA LLENA"
                         : `${
-                            letraTabla === "N"
+                            letraTabla === "B"
                               ? "La tabla aun no llega a tener más de 20 números llenados"
                               : "La tabla aun no llega a tener más de 5 números llenados"
                           }`}
                     </span>
-                    {letraTabla === "N" && DisplayTextLetras({letrasFormadas})}
+                    {letraTabla === "B" && DisplayTextLetras({letrasFormadas})}
                     {pasadas !== "" && <span>{pasadas}</span>}
                   </div>
                 ) : (
