@@ -32,7 +32,7 @@ export async function ObtenerIDUsuario(cedulacelular) {
     return err;
   }
 }
-export async function ObtenerIDVendedores() {
+export async function ObtenerIDVendedores(cedulacelular) {
   try {
     const res = await axios.post(`${url}/api/users/userIdSeller`, {
       cedulacelular: cedulacelular,
